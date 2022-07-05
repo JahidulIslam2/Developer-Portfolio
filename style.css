@@ -18,8 +18,10 @@ h1{
     color: green;
 }
 
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
+
 }
 
 .half-width{
@@ -86,4 +88,12 @@ section{
     border-radius: 6px;
     border-style:outset;
     
+}
+
+.card-deco{
+
+    box-shadow: inset 10px 5px 25px  5px black, 5px 5px 12px 2px rgb(170, 71, 71);
+    margin: 25px 30px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
