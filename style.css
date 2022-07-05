@@ -40,6 +40,7 @@ section{
     font-size: large;
     font-weight: 600;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: unset;
 
     
 }
@@ -47,4 +48,42 @@ section{
 .Top-banner{
 
     background-image: url(images/top-banner.png);
+}
+
+.Sp-half-Width{
+
+    width: 50%;
+    padding-right: 10%;
+}
+.Sp-half-Width img{
+
+    width: 70%;
+    
+}
+
+
+.head-color{
+    color: rgb(19, 117, 222);
+}
+.second-head{
+    color: lightslategray;
+}
+ 
+.second-banner{
+
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+} 
+
+.button-resum{
+
+    text-decoration:none;
+    background-image: linear-gradient(orange,rgb(235, 119, 30));
+    background-color: rgb(190, 89, 16);
+    padding: 5px 10px;
+    border-radius: 6px;
+    border-style:outset;
+    
 }
